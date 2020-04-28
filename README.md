@@ -35,7 +35,7 @@ python main.py --mode test
 - Elem15, ..., elem24 are corresponding intensities.
 
 ## Citation
-If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: <br>csqianzheng@gmail.com<br>, <br>jiaym15@outlook.com<br> 
+If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: csqianzheng@gmail.com<br>, jiaym15@outlook.com<br> 
 ```
 @inproceedings{zheng2019spline,
   title={SPLINE-Net: Sparse photometric stereo through lighting interpolation and normal estimation networks},
