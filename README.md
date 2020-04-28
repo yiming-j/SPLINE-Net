@@ -10,7 +10,7 @@ https://arxiv.org/abs/1905.04088 <br>
 
 ## Training 
 
-Will upload soon
+- Will upload soon
 
 ## Test SPLINE-Net on DiLiGenT Dataset
 
@@ -25,8 +25,8 @@ python main.py --mode test
 ```
 
 ## Test SPLINE-Net on your own dataset
-Please follow the data format of test set we created, use 'data/test' as a reference.
-In text file 'data/test/.../..txt', each line is a 1 * 24 vector, elem1, ..., elem24, represent data of one pixel. 
-Elem1 is index of the pixel in the original image. Elem2, elem3, elem4 are nx, ny, nz in normal vector.
-Elem5, ..., elem14 are index of the observation map, mapping to 10 lightings.
-Elem15, ..., elem24 are corresponding intensities   
+- Please follow the data format of test set we created, use 'data/test' as a reference.
+- In text file 'data/test/.../..txt', each line is a 1 * 24 vector, elem1, ..., elem24, represent data of one pixel. 
+- Elem1 is index of the pixel in the original image. Elem2, elem3, elem4 are nx, ny, nz in normal vector.
+- Elem5, ..., elem14 are index of the observation map, mapping to 10 lightings.
+- Elem15, ..., elem24 are corresponding intensities.
