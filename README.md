@@ -1,6 +1,6 @@
 # SPLINE-Net
 SPLINE-Net: Sparse Photometric Stereo through Lighting Interpolation and Normal Estimation Networks
-https://arxiv.org/abs/1905.04088 <br>
+http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_SPLINE-Net_Sparse_Photometric_Stereo_Through_Lighting_Interpolation_and_Normal_Estimation_ICCV_2019_paper.pdf <br>
 
 ## Dependencies
 
@@ -33,3 +33,15 @@ python main.py --mode test
 - Elem1 is index of the pixel in the original image. Elem2, elem3, elem4 are nx, ny, nz in normal vector.
 - Elem5, ..., elem14 are index of the observation map, mapping to 10 lightings.
 - Elem15, ..., elem24 are corresponding intensities.
+
+## Citation
+If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: <br>csqianzheng@gmail.com<br>, <br>jiaym15@outlook.com<br> 
+```
+@inproceedings{zheng2019spline,
+  title={SPLINE-Net: Sparse photometric stereo through lighting interpolation and normal estimation networks},
+  author={Zheng, Qian and Jia, Yiming and Shi, Boxin and Jiang, Xudong and Duan, Ling-Yu and Kot, Alex C},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={8549--8558},
+  year={2019}
+}
+```
