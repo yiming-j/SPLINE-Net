@@ -19,6 +19,9 @@ https://arxiv.org/abs/1905.04088 <br>
 sh prepare_diligent_testset.sh
 # This command will download and unzip the test set
 
+# Download pre-trained model
+sh download_pretrained_model.sh
+
 # Run for test
 python main.py --mode test
 # Please check the results in photometric/results
