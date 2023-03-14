@@ -2,6 +2,8 @@
 SPLINE-Net: Sparse Photometric Stereo through Lighting Interpolation and Normal Estimation Networks
 http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_SPLINE-Net_Sparse_Photometric_Stereo_Through_Lighting_Interpolation_and_Normal_Estimation_ICCV_2019_paper.pdf <br>
 
+The latest code is updated at https://github.com/q-zh/SPLINE-Net
+
 ## Dependencies
 
 - Python 3.5+
